@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Roboto:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  transition: all ease 500;
+}
+
+.App-header {
+  background: url(../assets/beach.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h2 {
+  display: inline-block;
+  font-family: "Lobster", cursive;
+  font-size: 60px;
+  text-shadow: 5px 5px 10px #7af0af;
+}
+
+.App-header form {
+  margin: 2rem;
+}
+
+.App-header form input {
+  font-family: "Roboto", sans-serif;
+  padding: 0.4rem;
+  background-color: #c0edd483;
+  border-radius: 3px;
+  outline-style: none;
+  border: 0;
+}
+
+.App-header form button {
+  color: rgb(44, 43, 43);
+  padding: 0.4rem;
+  margin-left: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.App header img {
+  width: 20%;
+  padding-left: 1rem;
+}
+body {
+  background-color: rgb(228, 227, 227);
+  min-height: 65vh;
+  transition: all ease-in-out;
+}
+
+.info {
+  font-family: "Coda Caption", sans-serif;
+  color: rgb(109, 109, 109);
+  padding: 3rem 0;
+}
+
+.country-box {
+  max-width: 80%;
+  font-weight: 600;
+  color: #fff;
+  background-color: #c0edd481;
+  padding: 2rem;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.7;
+  /* border: 1px solid gray; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 6px;
+
+  box-shadow: 5px 6px 6px 1px gray;
+}
+
+.country-box:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.country-box h3 {
+  text-shadow: 6px 3px 16px #7af0af;
+  font-size: x-large;
+  font-family: "Coda Caption", sans-serif;
+}
+
+.country-box ul {
+  list-style: none;
+}
+
+.vaccinations {
+  min-height: 150px;
+  color: black;
+  line-height: 25px;
+  padding: 2rem;
+  margin-top: 2rem;
+  background: url(../assets/vaccine.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+  /* border: 1px solid gray; */
+  text-align: left;
+}
+
+.currency {
+  min-height: 100px;
+  padding: 2rem;
+  border-radius: 3px;
+  background: url(../assets/coins.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.water {
+  min-height: 100px;
+  padding: 2rem;
+  border-radius: 3px;
+  background: url(../assets/water.jpg);
+  background-position: center;
+  background-size: cover;
+}
